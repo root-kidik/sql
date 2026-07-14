@@ -392,6 +392,18 @@ OFFSET
 
 ## Fixed Values
 
+Можно включать в вывод - фиксированные значения
+
+___
+
+```sql
+SELECT 1
+```
+
+`1`
+
+___
+
 ```sql
 SELECT 123 as static_number
 ```
