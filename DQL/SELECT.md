@@ -390,3 +390,38 @@ OFFSET
 - `OFFSET` пропускаем первые `10` строк
 - `LIMIT 2` - берём только первые `2`
 
+## Fixed Values
+
+```sql
+SELECT 123 as static_number
+```
+
+| static_number |
+| ------------- |
+| 123           |
+
+___
+
+```sql
+SELECT 'Hello' AS static_string
+```
+
+| static_string |
+| ------------- |
+| Hello         |
+
+___
+
+```sql
+SELECT
+    id,
+    first_name,
+    'New Customer' as customer_type
+FROM 
+    customers
+```
+
+| id | first_name | customer_type |
+| -- | ---------- | ------------- |
+| 1  | Marta      | New Customer  |
+| 2  | Nikita     | New Customer  |
