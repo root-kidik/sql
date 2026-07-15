@@ -104,8 +104,8 @@ ___
 
 ```sql
 SELECT
-    country, -- Category
-    SUM(score) as total_score -- Aggregation
+    country,
+    SUM(score) as total_score
 FROM
     table
 GROUP BY
