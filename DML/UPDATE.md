@@ -11,8 +11,6 @@ WHERE
 
 - обновить в таблице `customers` все строки, у которых `id = 6`, сделав `score = 0`
 
-___
-
 ```sql
 UPDATE 
     customers
@@ -24,8 +22,6 @@ WHERE
 ```
 
 - обновить в таблице `customers` все строки, у которых `id = 10`, сделав `score = 0` и `country = 'Russia'`
-
-___
 
 ```sql
 UPDATE

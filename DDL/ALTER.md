@@ -9,8 +9,6 @@ ADD COLUMN
 
 - добавляет колонку `email` в таблицу `persons`
 
-___
-
 ```sql
 ALTER TABLE 
     persons

@@ -7,8 +7,6 @@ DELETE FROM
 
 - удалить все строки из таблицы `customers` (лучше использовать `TRUNCATE TABLE customers`)
 
-___
-
 ```sql
 DELETE FROM
     customers
@@ -17,8 +15,6 @@ WHERE
 ```
 
 - удалить все строки из таблицы `customers`, в который `id > 5`
-
-___
 
 ```sql
 TRUNCATE TABLE
