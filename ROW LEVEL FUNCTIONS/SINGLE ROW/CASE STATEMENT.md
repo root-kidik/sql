@@ -1,4 +1,3 @@
-
 ## CASE STATEMENT
 
 ```sql
